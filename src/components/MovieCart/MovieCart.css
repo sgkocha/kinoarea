@@ -1,0 +1,27 @@
+.movie-cart {
+  width: 339.39px;
+  height: 520px;
+}
+.movie-cart-rating {
+  width: 62.28px;
+  margin-left: 77%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #89CB36;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.movie-cart-title {
+  margin-top: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.movie-cart-genre {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #F2F60F;
+}/*# sourceMappingURL=MovieCart.css.map */

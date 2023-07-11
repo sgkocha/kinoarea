@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+
+    &-social {
+        width: fit-content;
+        margin: 0 auto;
+        margin-bottom: 0;
+        gap: 12px;
+    }
+
+    nav {
+        width: fit-content;
+        margin: 38px auto;
+        margin-bottom: 0;
+    }
+
+    &-nav-list {
+        list-style-type: none;
+        gap: 34px;
+
+        li {
+            a {
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 120%;
+                text-decoration: none;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+
+                &:hover {
+                    color: #ffa500;
+                }
+            }
+        }
+    }
+
+    &-rights, &-policy {
+        margin-top: 42px;
+        font-size: 15px;
+        line-height: 119%;
+        color: rgba(227, 230, 240, 0.72);
+    }
+
+    &-policy {
+        display: block;
+      margin-top: 38px;
+    }
+}

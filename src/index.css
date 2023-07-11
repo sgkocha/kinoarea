@@ -1,13 +1,189 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Qanelas Regular'), url('fonts/QanelasRegular.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Qanelas Regular Italic'), url('fonts/QanelasRegularItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Qanelas Thin'), url('fonts/QanelasThin.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Qanelas UltraLight'), url('fonts/QanelasUltraLight.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Qanelas Thin Italic'), url('fonts/QanelasThinItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Qanelas UltraLight Italic'), url('fonts/QanelasUltraLightItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Qanelas Light'), url('fonts/QanelasLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Qanelas Light Italic'), url('fonts/QanelasLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Qanelas Medium'), url('fonts/QanelasMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Qanelas Medium Italic'), url('fonts/QanelasMediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Qanelas SemiBold'), url('fonts/QanelasSemiBold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Qanelas SemiBold Italic'), url('fonts/QanelasSemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Qanelas Bold'), url('fonts/QanelasBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Qanelas Bold Italic'), url('fonts/QanelasBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Qanelas ExtraBold'), url('fonts/QanelasExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Qanelas ExtraBold Italic'), url('fonts/QanelasExtraBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Qanelas Black'), url('fonts/QanelasBlack.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: normal;
+  font-weight: 950;
+  src: local('Qanelas Heavy'), url('fonts/QanelasHeavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Qanelas Black Italic'), url('fonts/QanelasBlackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  font-style: italic;
+  font-weight: 950;
+  src: local('Qanelas Heavy Italic'), url('fonts/QanelasHeavyItalic.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  padding-left: 245px;
+  padding-right: 245px;
+  background-color: #1E2538;
+  font-family: 'Qanelas';
+  font-weight: 700;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.enabled {
+  opacity: 1;
 }

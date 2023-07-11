@@ -1,0 +1,51 @@
+.header {
+  margin-top: 24px;
+}
+.header-social {
+  margin-top: 8px;
+  gap: 12px;
+}
+.header-nav-list {
+  list-style-type: none;
+  gap: 34px;
+}
+.header-nav-list li a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+.header-nav-list li a:hover {
+  color: #ffa500;
+}
+.header-actions {
+  gap: 18px;
+}
+.header-actions button {
+  display: block;
+  cursor: pointer;
+}
+.header-actions button:nth-child(1) {
+  width: 55px;
+  height: 52px;
+  padding: 12px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.header-actions button:nth-child(2) {
+  width: 138px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #3657CB;
+  border: 1px solid #3657CB;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.header-actions button:nth-child(2):hover {
+  color: #ffa500;
+}/*# sourceMappingURL=Header.css.map */
