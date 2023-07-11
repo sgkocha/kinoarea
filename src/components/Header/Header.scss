@@ -60,3 +60,88 @@
         }
     }
 }
+
+.modal {
+    &-action {
+        display: block;
+        margin-top: -7px;
+        margin-left: 98%;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    &-title {
+        font-weight: 800;
+        font-size: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &-fm {
+        width: fit-content;
+        margin: 40px auto;
+        margin-bottom: 0;
+
+        input {
+            display: block;
+            width: 422px;
+            margin-bottom: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            background-color: #1E2538;
+            border: 1px solid #1E2538;
+            border-radius: 8px;
+            outline: none;
+            font-size: 17px;
+            line-height: 166.5%;
+            color: rgba(255, 255, 255, 0.6);
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        &-enter, &-sign {
+            display: block;
+            width: 422px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #F2F60F;
+            border: 1px solid #F2F60F;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 166.5%;
+            color: #151A26;
+            cursor: pointer;
+        }
+
+        &-sign {
+            margin-top: 20px;
+            background-color: #1E2538;
+            border-color: #1E2538;
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+
+        &-restore {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding-bottom: 0.5px;
+            border-bottom: 1px solid #3657CB;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 166.5%;
+            text-decoration: none;
+            color: #3657CB;
+        }
+
+        &-socials {
+            width: fit-content;
+            margin: 20px auto;
+        }
+    }
+}
