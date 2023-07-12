@@ -131,12 +131,15 @@
             width: fit-content;
             margin: 20px auto;
             padding-bottom: 0.5px;
+            background-color: transparent;
+            border: 0;
             border-bottom: 1px solid #3657CB;
             font-weight: 500;
             font-size: 17px;
             line-height: 166.5%;
             text-decoration: none;
             color: #3657CB;
+            cursor: pointer;
         }
 
         &-socials {

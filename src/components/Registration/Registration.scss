@@ -1,0 +1,59 @@
+.registration {
+    width: 422px;
+    margin: 40px auto;
+    margin-bottom: 0;
+
+    input {
+        display: block;
+        width: 422px;
+        margin-bottom: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        background-color: #1E2538;
+        border: 1px solid #1E2538;
+        border-radius: 8px;
+        outline: none;
+        font-size: 17px;
+        line-height: 166.5%;
+        color: rgba(255, 255, 255, 0.6);
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+
+    .agree-bl {
+        margin-bottom: 20px;
+        gap: 12px;
+
+        input {
+            display: block;
+            width: 17px;
+            height: 17px;
+        }
+
+        label {
+            display: block;
+            margin-top: -18px;
+            font-size: 15px;
+            line-height: 140.2%;
+            color: #FFFFFF;
+        }
+    }
+
+    &-btn {
+        display: block;
+        width: 422px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #F2F60F;
+        border: 1px solid #F2F60F;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 166.5%;
+        color: #151A26;
+        cursor: pointer;
+    }
+}
